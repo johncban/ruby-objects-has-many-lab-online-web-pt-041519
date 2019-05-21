@@ -5,7 +5,6 @@ class Post
 
   def initialize(new)
     @new = new
-    @title = title
     @@all << self
   end
 
