@@ -1,9 +1,9 @@
 class Post
-  attr_accessor :new, :title
+  attr_accessor :new
 
   @@all =[]
 
-  def initialize(new, title)
+  def initialize(new)
     @new = new
     @title = title
     @@all << self
