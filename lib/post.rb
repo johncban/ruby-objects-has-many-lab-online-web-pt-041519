@@ -6,4 +6,9 @@ class Post
   def initialize(new)
     @new = new
   end
+
+  def self.all
+    @@all
+  end
+
 end
